@@ -1,0 +1,46 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+caption {
+    font-size: x-large;
+    font-weight: 800;
+    color: black;
+    
+}
+
+.html-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+
+.html-table thead tr {
+    background-color: crimson;
+    color: aliceblue;
+    text-align: left;
+    font-weight: bold;
+}
+
+.html-table th, 
+.html-table td {
+    padding: 12px 15px;
+}
+
+.html-table tbody tr {
+    border-bottom: 1px solid darkgray;
+    background-color: #f3f3f3;
+}
+
+.html-table tbody tr:last-of-type {
+    border-bottom: 3px solid crimson;
+}
